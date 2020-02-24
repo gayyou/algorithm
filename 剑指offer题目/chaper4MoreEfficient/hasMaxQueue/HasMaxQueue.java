@@ -1,9 +1,6 @@
-package chaper4MoreEfficient.hasMaxQueue;
+package 剑指offer题目.chaper4MoreEfficient.hasMaxQueue;
 
-import com.sun.corba.se.spi.orbutil.threadpool.NoSuchWorkQueueException;
 import lombok.Data;
-import operateingSystem.filemanage.core.Exception.Impl.ErrorException;
-import sun.invoke.empty.Empty;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

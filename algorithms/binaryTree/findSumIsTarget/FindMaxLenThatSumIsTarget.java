@@ -1,15 +1,15 @@
-package algorithms.binaryTree;
+package algorithms.binaryTree.findSumIsTarget;
 
 import model.BinaryNode;
 
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 
 /**
  * @author Weybn
  * @motto Rare in the world you're worth it.
  * @time 2020/2/23 13:56
+ * 1.这里处理的结果会可能是两个子数组的集合，也就是如果是  想到结果是 2  那么 1 -> 1 是结果，1 -> 1 -> -1 -> 1也是结果
  */
 public class FindMaxLenThatSumIsTarget {
   public static int getMaxLen(BinaryNode<Integer> root, int targetNum) {
