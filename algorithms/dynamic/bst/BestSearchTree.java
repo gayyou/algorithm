@@ -40,22 +40,6 @@ public class BestSearchTree {
     return null;
   }
 
-/*  private static double getBestProbability(int x, int y) {
-    if (x > y) {
-      return 0;
-    }
-
-    if (x == y) {
-      return probabilityTable[x][x];
-    }
-
-    if (probabilityTable[x][y] > 0) {
-      return probabilityTable[x][y];
-    }
-
-
-  }*/
-
   public static void printTree() {
 
   }
